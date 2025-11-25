@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/3fbae7b4-3373-46de-a7cb-5be354d54d7e/resourceGroups/rg-learn/providers/microsoft.insights/components/test-git</ApplicationInsightsResourceId>
+    <UserSecretsId>f25f1c17-90cf-467d-8621-12a386676fe6</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.17.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.23.0" />
+  </ItemGroup>
 
 </Project>
